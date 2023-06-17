@@ -1,88 +1,36 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
   <head>
     <link rel="stylesheet" href="styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <title>Documentación Técnica</title>
+    <title>A tribute to the father of the "Green Revolution".</title>
+    <meta charset="utf-8">
   </head>
   <body>
-    <nav id="navbar">
-      <header>Documentación de JS</header>
-      <ul>
-        <li>
-          <a class="nav-link" href="#Introducción">Introducción</a>
-        </li>
-        <li>
-          <a class="nav-link" href="#Lo_que_ya_deberías_saber">Lo que ya deberías saber</a>
-        </li>
-        <li>
-          <a class="nav-link" href="#JavaScript_y_Java">JavaScript y Java</a>
-        </li>
-        <li>
-          <a class="nav-link" href="#Hola_mundo">Hola mundo</a>
-        </li>
-        <li>
-          <a class="nav-link" href="#Variables">Variables</a>
-        </li>
-        <li>
-          <a class="nav-link" href="#Declarando_Variables">Declarando variables</a>
-        </li>
-      </ul>
-    </nav>
-    <main id="main-doc">
-      <section class="main-section" id="Introducción">
-        <header>Introducción</header>
-        <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
-        <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:</p>
+    <main id="main">
+      <h1 id="title">Dr. Norman Borlaug</h1>
+      <p>The man who saved a billion lives</p>
+      <figure id="img-div">
+        <img id="image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg" alt="Dr. Norman Borlaug seen standing in Mexican wheat field with a group of biologists">
+        <figcaption id="img-caption">
+      Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger. 
+        </figcaption>
+      </figure>
+      <section id="tribute-info">
+        <h3><b>Here's a time line of Dr. Borlaug's life:</b> <br> <br></h3>
         <ul>
-          <li>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</li>
-          <li>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.</li>
+          <li><b>1914</b> - Born in Cresco, Iowa.</li><br>
+          <li><b>1933</b> - Leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the "National Youth Administration".</li><br>
         </ul>
-        <p></p>
-      </section>
-      <section class="main-section" id="Lo_que_ya_deberías_saber">
-        <header>Lo que ya deberías saber</header>
-        <p></p>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-        <code></code>
-        <p></p>
-      </section>
-      <section class="main-section" id="JavaScript_y_Java">
-        <header>JavaScript y Java</header>
-        <p></p>
-        <code></code>
-        <code></code>
-        <code></code>
-        <p></p>
-      </section>
-      <section class="main-section" id="Hola_mundo">
-        <header>Hola mundo</header>
-        <p></p>
-        <code></code>
-        <code></code>
-        <code></code>
-        <p></p>
-      </section>
-      <section class="main-section" id="Variables">
-        <header>Variables</header>
-        <p></p>
-        <code></code>
-        <code></code>
-        <code></code>
-        <p></p>
-      </section>
-      <section class="main-section" id="Declarando_Variables">
-        <header>Declarando variables</header>
-        <p></p>
-        <code></code>
-        <code></code>
-        <code></code>
-        <p></p>
+
+        <blockquote cite="http://news.rediff.com/report/2009/sep/14/pm-pays-tribute-to-father-of-green-revolution-borlaug.htm">
+          <p>
+            "Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress."
+          </p>
+          <cite>-- Indian Prime Minister Manmohan Singh</cite>
+        </blockquote>
+        <h3>
+          If you have time, you should read more about this incredible human being on his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank">Wikipedia entry</a>.
+        </h3>
       </section>
     </main>
   </body>
